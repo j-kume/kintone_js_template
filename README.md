@@ -1,0 +1,1 @@
+# kintone_js_template
