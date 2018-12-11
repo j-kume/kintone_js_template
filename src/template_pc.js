@@ -110,7 +110,7 @@
 
         if (errorFlg === true) {
             event.error = '入力内容に不備があります。';
-        };
+        }
         
     };  // validation
     
