@@ -9,24 +9,39 @@
 //  Copyright (c) 20XX COMPANY_NAME
 //=============================================================================
 
-var APP = APP || {};
-var CONST = CONST || {};
+const KT_APP = {};
+const KT_CONST = {};
 
 //----------------------------
 // アプリID
 //----------------------------
-APP.XXXXXX = 999;           // アプリ１
-APP.XXXXXX = 999;           // アプリ２
-APP.XXXXXX = 999;           // アプリ３
+const KT_APP = {
+    XXXXXXX: 100,               // アプリ1
+    YYYYYYY: 200,               // アプリ2
+    ZZZZZZZ: 300                // アプリ3
+};
 
+//----------------------------
+// ゲストスペース
+//----------------------------
+const KT_GUEST = {
+    XXXXXXX: 10,                // ゲストスペース1
+    YYYYYYY: 20,                // ゲストスペース2
+    ZZZZZZZ: 30                 // ゲストスペース3
+};
 
 //----------------------------
 // 定数
 //----------------------------
-// CONST.XXXXXXXXX = ' ';         // XXXXXX
-
-
-
-
-
-
+const KT_CONST = {
+    XXXXXX: {
+        AAAAAA: 'A',            // 定数1
+        BBBBBB: 'B',            // 定数2
+        CCCCCC: 'C'             // 定数3
+    },
+    YYYYYY: {
+        AAAAAA: 'A',            // 定数1
+        BBBBBB: 'B',            // 定数2
+        CCCCCC: 'C'             // 定数3
+    }
+};
